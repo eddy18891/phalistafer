@@ -1,61 +1,60 @@
-body
-{
-	margin: 0;
+body {
+	margin: 0px;
+}
+
+header {
 	background: #6969;
-}
-
-header
-{
-	background: #999;
 	color: white;
-	padding: 15px 15px 0 15px;
+	padding: 5px 15px 0px 15px;
 }
 
-header h1
-{
-	margin: 0;
-	color: 999;
+header h1 {
+	margin: 0;	
 	display: inline;
 }
 
-nav ul
-{
+nav ul {
 	margin: 0;
 	padding: 0 0 0 15px;
 	display: inline;
 }
 
-nav ul li
-{
-	background: black;
+nav ul li {
+	background: #6969;
 	color: white;
 	display: inline-block;
 	list-style-type: none;
-	padding: 5px 15px 5px 15px; <!--Clockwise-->
+	padding: 5px 15px 5px 20px; <!--Clockwise-->
 }
 
-nav ul li a
-{
+nav ul li a {
 	color: white;
 }
 
-.row 
-{
-	
+.divider {
+	background: #6969;
+	margin: 0;
+	padding: 5px 0 0 0;
 }
-.col
-{
+
+.row {
+	clear: both;	
+}
+
+.col {
+	background: #999;
+	border-radius: 5px;
+	padding: 10px 0.5%;
+	margin: 1%;
 	float: left;
+	width: 25%;
+}
+
+p {
+	clear: both;
 }
 
 footer
 {
 	clear: both;
-}
-
-p
-{
-	background: #666;
-	color: white;
-	padding: 10px 10x 10px 10px;
 }
