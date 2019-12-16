@@ -1,9 +1,12 @@
 body {
+	background-image: url("kazuma.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	margin: 0px;
 }
 
 header {
-	background: #6969;
+	background-color: #6969;	
 	color: white;
 	padding: 5px 15px 0px 15px;
 }
@@ -48,6 +51,28 @@ nav ul li a {
 	margin: 1%;
 	float: left;
 	width: 25%;
+}
+
+.features {
+	background: white;
+	color: black;
+	padding: 20px;
+	display: flex;
+	flex-direction:row;
+}
+
+.features figure {
+	margin: auto;
+	text-align: center;
+	width: 200px;
+}
+
+.features figure img {
+	width: 200px;
+	/* color x-offset y-offset shadow-width */
+	box-shadow: gray 0 0 10px;
+	height: 200px;
+	border-radius: 50%;
 }
 
 p {
