@@ -1,4 +1,49 @@
 body
 {
-  background: #999;
+	margin: 0;
+	background: #6969;
+}
+
+header
+{
+	background: #999;
+	color: white;
+	padding: 15px 15px 0 15px;
+}
+
+<!-- Things inside the header -->
+header h1
+{
+	margin: 0;
+	color: 999;
+	display: inline;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+<!-- Things inside the nav -->
+nav ul li
+{
+	background: black;
+	color: white;
+	display: inline-block; <!---->
+	list-style-type: none;
+	padding: 5px 15px 5px 15px; <!--Clockwise-->
+}
+
+<!-- Things inside the ul -->
+nav ul li a
+{
+	color: white;
+}
+p
+{
+	background: #666;
+	color: white;
+	padding: 10px 10x 10px 10px;
 }
